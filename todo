@@ -1,0 +1,48 @@
+Working on:
+
+
+Ideas:
+
+
+
+
+Need to Do:
+	--Restart the server
+	-- When clicking on online list charater doesn't bring over level to the list.
+	--If at any point a connection is lost or server is shutdown need to log out back to front page 
+			**This can be done i think by Setup context in Mangostelnet and every command check if active
+	--Remove the square boxes
+	--Use SOAP server
+	
+	
+***CHANGE LOG ***	
+VERSION 2.2 RELEASED
+	-Added Cataclysm
+	-Updated android manfest
+	-Updated to android 2.3.1
+	-Fixed when you click login nothing happens.  Now displays errors.
+
+VERSION 2.1 RELEASED
+	-Updated android manfest	
+	-Changed login information over to a global variable setup.
+	-Added Copy right info and copy sheet.
+	-Added send Gold.
+	-Added Send Onscreen notification
+	-Added Gm level to Account screen This also extents the button across the screen.
+	-Added Create new account
+	-Added ability to Delete account
+	
+VERSION 2.0 RELEASED
+	DONE    --Add in list online players  DONE
+	DONE   --From online players click into player and run a list of options DONE
+	FIXED  --If you click off main tab the buttons become deactive  FIXED
+	DONE    --Need to Clean up Account_list.xml
+	
+	
+	
+VERSION 2.0
+	FIXED  --When Changing moto it addes in Moto Changed to?  NEED TO REMOVE AFTER THE :  FIXED
+	FIXED  --Player Limit Doesn't work  FIXED
+	DONE   --Add in ability to Send a written command  DONE
+	DONE   --When Reloading tables through up a hour glass to show it's working on it.  DONE
+	DONE   --Login screen needs to be scollable  DONE

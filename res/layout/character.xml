@@ -1,0 +1,64 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tab1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:isScrollContainer="true"
+        android:orientation="vertical"
+        android:scrollbars="vertical" >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="NAME HERE" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:text="INFO HERE" />
+
+        <TextView
+            android:id="@+id/functions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Character Commands" />
+
+        <Button
+            android:id="@+btn/levelBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Characters level" />
+
+        <Button
+            android:id="@+btn/mailBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Send a Mail message" />
+
+        <Button
+            android:id="@+btn/itemBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Send a item" />
+
+        <Button
+            android:id="@+btn/goldBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Gold" />
+
+        <Button
+            android:id="@+btn/teleportBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Teleport Player" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+table/logintab"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1" >
+
+        <TextView
+            android:id="@+id/entertext"
+            android:text="Welcome to MobleMangos.  Please login below."
+            android:textColor="#000000" />
+
+        <TableRow android:id="@+row/user" >
+
+            <EditText
+                android:id="@+login/username"
+                android:layout_width="fill_parent"
+                android:hint="Please enter your Username"
+                android:inputType="text|textEmailAddress" />
+        </TableRow>
+
+        <TableRow android:id="@+row/pass" >
+
+            <EditText
+                android:id="@+login/password"
+                android:layout_width="fill_parent"
+                android:hint="Please enter your Password"
+                android:password="True" />
+        </TableRow>
+
+        <TableRow android:id="@+row/url" >
+
+            <EditText
+                android:id="@+login/url_text"
+                android:layout_width="fill_parent"
+                android:hint="URL to Mangos" />
+        </TableRow>
+
+        <TableRow android:id="@+row/port" >
+
+            <EditText
+                android:id="@+login/port_text"
+                android:layout_width="fill_parent"
+                android:hint="port to RA mangos" />
+        </TableRow>
+
+        <TableRow android:id="@+row/remeber" >
+
+            <CheckBox
+                android:id="@+login/remember"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remember me!!" >
+            </CheckBox>
+        </TableRow>
+
+        <TableRow android:id="@+row/butn" >
+
+            <Button
+                android:id="@+btn/loginBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login" >
+            </Button>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

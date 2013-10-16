@@ -1,0 +1,31 @@
+10
+
+dir
+23
+http://10.1.10.12/svn/moblemangos/Moble%20Mangos/src/com
+http://10.1.10.12/svn/moblemangos
+
+
+
+2012-10-04T15:30:53.038601Z
+21
+flintman
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+993d35fc-db3d-461e-b305-7807fe61a75e
+
+mangos
+dir
+
